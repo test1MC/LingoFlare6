@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LingoProject TargetLanguage="ar;es" xml:lang="ar" SourceLanguage="en-us" FileFormatVersion="6" CreatedInVersion="10" flattenSnippets="false" SourceControlDatabaseRoot="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf" SourceControlDatabase="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\.git" SourceControlBound="true" SourceControlProviderType="Git" ProjectGuid="5ec648c1-dd59-4a07-a729-8fdbbc79110b">
+<LingoProject TargetLanguage="ar;es" xml:lang="ar" SourceLanguage="en-us" FileFormatVersion="6" CreatedInVersion="10" flattenSnippets="true" SourceControlDatabaseRoot="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf" SourceControlDatabase="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\.git" SourceControlBound="true" SourceControlProviderType="Git" ProjectGuid="5ec648c1-dd59-4a07-a729-8fdbbc79110b" SelectedConditions="Default.PrintOnly">
     <ProjectFile Source="Target/LingoProject17.flprj" Target="Target/LingoProject17.flprj" />
 </LingoProject>
