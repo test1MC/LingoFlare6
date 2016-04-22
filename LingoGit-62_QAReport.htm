@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/xml;charset=utf-8;doctype='http://www.w3.org/xhtml.dtd'" />
+        <script type="text/javascript">/*<![CDATA[*/
+    var nthChild = function (elem, num) {
+    var len = elem.length;
+    var ret = [];
+    var i = 0;
+    // :nth-child(odd)
+    if (num === 'odd') {
+        for (i = 0; i < len; i += 2) {
+            ret.push(elem[i]);
+        }
+    }
+    // :nth-child(even)
+    if (num === 'even') {
+        for (i = 1; i < len; i += 2) {
+            ret.push(elem[i]);
+        }
+    }
+    return ret;
+};
+
+function cssAlternateRows()  {
+    var tables = document.getElementsByTagName('table');
+    for (var i=0; i < tables.length; i++) {
+        var even = nthChild(tables[i].rows, 'even');
+        var odd = nthChild(tables[i].rows, 'odd');
+        for (var j=0; j < even.length; j++)
+            even[j].className += 'even';
+        for (var j=0; j < odd.length; j++)
+            odd[j].className += 'odd';
+    }
+}; /*]]>*/</script>
+        <style type="text/css">body { font-family: "Helvetica"; }
+table { border-collapse: collapse; }
+td { border: solid 1px #696969; padding: 4px; font-size: 12px; }
+tr.odd  { background: #CCC; }
+th {  background: #3c3c3c;  font-weight: bold;  color: #dcdcdc; padding: 7px; font-size: 14px; }
+</style>
+    </head>
+    <body onload="cssAlternateRows()">
+        <Project Name="LingoGit-62.liprj" />
+        <div id="QAsummary">
+            <h1 align="center">QA Reports for LingoGit-62.liprj</h1>
+        </div>
+        <div id="QAReport">
+            <div id="NumberCheck">
+                <hr />
+                <h2 align="center">Report: Mismatching numbers in source and target</h2>
+                <h3 align="center">No errors found</h3>
+            </div>
+            <div id="DuplicateCheck">
+                <hr />
+                <h2 align="center">Report: Inconsistency in translation of repeated source segments</h2>
+                <h3 align="center">No errors found</h3>
+            </div>
+            <div id="PunctuationCheck">
+                <hr />
+                <h2 align="center">Report: Mismatching punctuation in source and target</h2>
+                <h3 align="center">No errors found</h3>
+            </div>
+            <div id="TerminologyCheck">
+                <hr />
+                <h2 align="center">Report: Incorrect use of project termbases</h2>
+                <h3 align="center">No errors found</h3>
+            </div>
+            <div id="WhitespaceCheck">
+                <hr />
+                <h2 align="center">Report: Mismatching whitespace in source and target</h2>
+                <h3 align="center">No errors found</h3>
+            </div>
+            <div id="BackwardDuplicateCheck">
+                <hr />
+                <h2 align="center">Report: Repeated target segments with varying source</h2>
+                <h3 align="center">No errors found</h3>
+            </div>
+            <div id="EmptyCheck">
+                <hr />
+                <h2 align="center">Report: Empty target segments</h2>
+                <table border="1" width="750" align="center" cellpadding="1" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Location</th>
+                            <th>Source Segment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\Advanced\Auto Index Sets\AutoIndexSet.flaix">AutoIndexSet.flaix</a> Segment #1</td>
+                            <td>This is my auto-indexed phrase</td>
+                        </tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\Advanced\Auto Index Sets\AutoIndexSet.flaix">AutoIndexSet.flaix</a> Segment #2</td><td>Linked To This:And This</td></tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\Advanced\Browse Sequences\BrowseSequence.flbrs">BrowseSequence.flbrs</a> Segment #1</td><td>First Topic</td></tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\Skins\Default.flskn">Default.flskn</a> Segment #1</td><td>This is the default skin</td></tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\Skins\HTML5 - Top Navigation.flskn">HTML5 - Top Navigation.flskn</a> Segment #1</td><td>HTML5 Top Navigation skin</td></tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\Skins\HTML5 - Tripane.flskn">HTML5 - Tripane.flskn</a> Segment #1</td><td>HTML5 Default Tripane skin</td></tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\TOCs\Master.fltoc">Master.fltoc</a> Segment #1</td><td>Topic</td></tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\Advanced\Search Filters\SearchFilter.flsfs">SearchFilter.flsfs</a> Segment #1</td><td>My Subset</td></tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\VariableSets\Variables.flvar">Variables.flvar</a> Segment #1</td><td>MadCap Software</td></tr>
+<tr><td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Project\VariableSets\Variables.flvar">Variables.flvar</a> Segment #2</td><td>858 123 4567</td></tr>
+</tbody>
+                </table>
+                <br />
+                <br />
+            </div>
+            <div id="SourceCheck">
+                <hr />
+                <h2 align="center">Report: Untranslated source text in target segments</h2>
+                <h3 align="center">No errors found</h3>
+            </div>
+            <div id="TagCheck">
+                <hr />
+                <h2 align="center">Report: Tag errors and warnings</h2>
+                <h3 align="center">No errors found</h3>
+            </div>
+            <div id="TranslationSizeCheck">
+                <hr />
+                <h2 align="center">Report: Large variation in size of source and target segments (+/-20%)</h2>
+                <table border="1" width="750" align="center" cellpadding="1" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Location</th>
+                            <th>Source Segment</th>
+                            <th>Target Segment</th>
+                            <th>Size Difference</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="C:\Users\dspencer\Documents\My Translated Projects\LingoGit-62.liprjf\Target\Content\Topic.htm">Topic.htm</a> Segment #1</td>
+                            <td>Topic Title</td>
+                            <td>Título del tema</td>
+                            <td>+36%</td>
+                        </tr>
+</tbody>
+                </table>
+                <br />
+                <br />
+            </div>
+        </div>
+    </body>
+</html>
