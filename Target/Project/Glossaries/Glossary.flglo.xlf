@@ -9,7 +9,7 @@
     source-language="en-us"
     MadCap:file-filter=""
     datatype="x-flglo"
-    target-language="es">
+    target-language="ar">
     <header>
       <skl><external-file
           href="Glossary.flglo.skl" /></skl>
@@ -48,20 +48,20 @@
         phase-name="pretrans"><source>My Term</source><seg-source><mrk
             mtype="seg"
             mid="1">My Term</mrk></seg-source><target
-          state="translated"><mrk
+          state="needs-translation"><mrk
             mtype="seg"
             mid="1"
-            MadCap:segmentStatus="Accepted"
-            MadCap:matchPercent="0">mi Plazo</mrk></target></trans-unit><trans-unit
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="2"
         restype="x-definition"
         phase-name="pretrans"><source>My definition</source><seg-source><mrk
             mtype="seg"
             mid="1">My definition</mrk></seg-source><target
-          state="translated"><mrk
+          state="needs-translation"><mrk
             mtype="seg"
             mid="1"
-            MadCap:segmentStatus="Accepted"
-            MadCap:matchPercent="0">mi definición</mrk></target></trans-unit></body>
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
   </file>
 </xliff>

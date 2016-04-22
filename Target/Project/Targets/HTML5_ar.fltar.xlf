@@ -5,14 +5,14 @@
   MadCap:translationStatus="untranslated">
   <file
     xml:space="preserve"
-    original="IndexLinkSet.flixl"
+    original="HTML5.fltar"
     source-language="en-us"
     MadCap:file-filter=""
-    datatype="x-flixl"
-    target-language="ar">
+    datatype="x-fltar"
+    target-language="es">
     <header>
       <skl><external-file
-          href="IndexLinkSet.flixl.skl" /></skl>
+          href="HTML5.fltar.skl" /></skl>
       <phase-group>
         <phase
           phase-name="translation"
